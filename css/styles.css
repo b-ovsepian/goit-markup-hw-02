@@ -1,0 +1,37 @@
+/* основной цвет текста color:#757575; */
+/* вспомагательный цвет текста color: #212121; */
+/* цвет текста на кнопках color: #FFFFFF; */
+/* цвет текста для hover и фокуса color: #2196F3; */
+body{
+    background-color: #fff;
+    color: #757575;
+    font-size: 14px;
+}
+.list{
+    list-style: none;
+}
+
+/* Site-nav */
+.site-nav .link{
+    color: #212121;
+}
+.site-nav .link:hover, .site-nav .link:focus{
+    color: #2196F3;
+}
+/* auth-nav */
+.auth-nav .link{
+    color: #212121;
+}
+.auth-nav .link:hover, .site-nav .link:focus{
+    color: #2196F3;
+}
+/* Hero */
+.hero-title{
+    /* color: #fff; */
+    font-size: 44px;
+}
+/* Section */
+.section-title{
+    color: #212121;
+    font-size: 36px;
+}
