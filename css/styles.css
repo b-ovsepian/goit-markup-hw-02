@@ -2,11 +2,15 @@
 /* вспомагательный цвет текста color: #212121; */
 /* цвет текста на кнопках color: #FFFFFF; */
 /* цвет текста для hover и фокуса color: #2196F3; */
+/* цвет кнопок в портфолио color: #F5F4FA */
+
+
 :root{
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #ffffff;
+    --portfolio-bg-color: #F5F4FA;
 }
 body{
     background-color: var(--primary-bg-color);
@@ -28,15 +32,15 @@ body{
     color: var(--accent-color);
 }
 /* auth-nav */
-.auth-nav .link{
+.cont-nav .link{
     color: var(--primary-text-color);
 }
-.auth-nav .link:hover, .site-nav .link:focus{
+.cont-nav .link:hover, .cont-nav .link:focus{
     color: var(--accent-color);
 }
 /* Hero */
 .hero-title{
-    /* color: #fff; */
+    color: var(--primary-bg-color);
     font-size: 44px;
 }
 /* Section */
@@ -47,6 +51,10 @@ body{
     color: var(--title-text-color);
     font-size: 36px;
 }
+.section .title{
+    color: var(--primary-bg-color);
+    font-size: 14px;
+}
 /* Features */
 .feature-list .title{
     color: var(--title-text-color);
@@ -56,7 +64,18 @@ body{
 .button{
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
-
+}
+.button.primary{
+    color: var(--title-text-color);
+    background-color: var(--portfolio-bg-color);
+}
+/* .button.secondary{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+} */
+.button.primary:hover, .button.primary:focus{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
 }
 /* Team */
 .team{
@@ -65,6 +84,21 @@ body{
 .team-title{
     color: var(--title-text-color);
     font-size: 16px;
+}
+.team-link{
+    color: var(--title-text-color); 
+    /* после inline svg убрать */
+}
+.team-link:hover, .team-link:focus{
+    color: var(--accent-color);
+}
+/* Portfolio */
+.portfolio .title{
+    color: var(--title-text-color);
+    font-size: 18px;
+}
+.portfolio .text{
+    color: var(--primary-text-color);
 }
 /* Footer */
 .footer{
