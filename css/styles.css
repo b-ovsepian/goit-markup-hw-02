@@ -20,10 +20,20 @@ body{
 .list{
     list-style: none;
 }
-
+/* logo */
+.logo{
+    color: var(--title-text-color);
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo .element{
+    color: var(--accent-color);
+}
 /* Site-nav */
 .site-nav .link{
     color: var(--title-text-color);
+    text-decoration: none;
 }
 .site-nav .link-current{
     color: var(--accent-color);
@@ -31,7 +41,7 @@ body{
 .site-nav .link:hover, .site-nav .link:focus{
     color: var(--accent-color);
 }
-/* auth-nav */
+/* cont-nav */
 .cont-nav .link{
     color: var(--primary-text-color);
 }
