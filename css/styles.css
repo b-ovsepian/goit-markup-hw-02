@@ -13,6 +13,7 @@
     --portfolio-bg-color: #F5F4FA;
 }
 body{
+    font-family: Roboto;
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-size: 16px;
@@ -22,6 +23,7 @@ body{
 }
 /* logo */
 .logo{
+    font-family: Raleway;
     color: var(--title-text-color);
     font-size: 26px;
     font-weight: bold;
@@ -44,6 +46,7 @@ body{
 /* cont-nav */
 .cont-nav .link{
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 .cont-nav .link:hover, .cont-nav .link:focus{
     color: var(--accent-color);
@@ -78,6 +81,7 @@ body{
 .button.primary{
     color: var(--title-text-color);
     background-color: var(--portfolio-bg-color);
+    text-decoration: none;
 }
 /* .button.secondary{
     color: var(--primary-bg-color);
@@ -103,6 +107,9 @@ body{
     color: var(--accent-color);
 }
 /* Portfolio */
+.portfolio .link{
+    text-decoration: none;
+}
 .portfolio .title{
     color: var(--title-text-color);
     font-size: 18px;
